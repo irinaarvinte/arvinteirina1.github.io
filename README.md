@@ -92,6 +92,19 @@
       <p>Îmi place să știu ce pun în farfurie. Gătitul acasă e un mod de relaxare, dar și o modalitate sigură de a mânca
          sănătos și echilibrat. În plus, economisesc bani și pot controla exact ingredientele și porțiile.</p>
     </div>
+    <div class="post">
+  <img src="https://images.unsplash.com/photo-1510626176961-4b57d4fbad03" alt="Salată colorată">
+  <h2>Salatele — mereu o alegere bună</h2>
+  <p>Combinațiile sunt infinite: legume proaspete, surse de proteine, semințe și un dressing natural.
+     Salatele nu sunt plictisitoare, dacă știi să le faci gustoase! Sunt preferatele mele înainte sau după un antrenament.</p>
+</div>
+
+<!-- LINK CĂTRE PAGINA CU GIF-URI -->
+<p style="text-align:center; margin-top:20px;">
+  <a href="pagina_video.html" style="color:#bb6f4f; text-decoration:none; font-weight:bold;">
+    Vezi exerciții și alimentație sănătoasă
+  </a>
+</p>
 
     <div class="post">
       <img src="https://images.unsplash.com/photo-1510626176961-4b57d4fbad03" alt="Salată colorată">
