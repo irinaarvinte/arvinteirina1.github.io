@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blog - Irina Arvinte & Tancoc Andreea </title>
+  <title>Blog - Arvinte Irina și Tancoc Andreea</title>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
   <style>
     body {
@@ -40,7 +40,7 @@
       border-radius: 12px;
       box-shadow: 0 2px 10px rgba(0,0,0,0.05);
     }
-    .post img {
+    .post img, .post iframe {
       max-width: 100%;
       border-radius: 12px;
       margin-bottom: 15px;
@@ -59,38 +59,41 @@
 </head>
 <body>
   <header>
-    <h1>Blogul Irinei Arvinte</h1>
+    <h1>Blogul Arvinte Irina și Tancoc Andreea</h1>
     <p>Despre sală, alimentație sănătoasă și echilibru în viață.</p>
   </header>
 
   <div class="container">
+
     <div class="post">
-      <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b" alt="Sală">
-      <h2>Importanța sportului în viața mea</h2>
-      <p>Mișcarea zilnică nu este doar despre aspectul fizic. Mersul la sală m-a ajutat să fiu mai disciplinată, mai energică și să am mai multă încredere în mine.</p>
+      <iframe src="https://giphy.com/embed/l0MYC0LajbaPoEADu" width="480" height="270" frameborder="0" allowfullscreen></iframe>
+      <h2>Importanța sportului în viața noastră</h2>
+      <p>Mișcarea zilnică nu reprezintă doar un mod de a arăta mai bine, ci și un mod de a ne simți mai bine. Pentru noi, sala a devenit locul unde ne eliberăm mintea, ne depășim limitele și învățăm să fim constante.</p>
+      <p>Cu fiecare antrenament ne simțim mai puternice, mai motivate și mai conectate cu propriul corp.</p>
     </div>
 
     <div class="post">
       <img src="https://images.unsplash.com/photo-1604908177522-4023f5487fbd" alt="Mic dejun sănătos">
       <h2>Un mic dejun echilibrat</h2>
-      <p>Ziua bună începe cu un mic dejun sănătos! Ovăz, fructe, semințe și un smoothie plin de vitamine — așa arată dimineața mea ideală.</p>
+      <p>Ziua bună începe cu un mic dejun sănătos! Ne place să combinăm ovăzul cu fructe, semințe și iaurt. Smoothie-urile sunt perfect pentru energie și vitamine.</p>
     </div>
 
     <div class="post">
       <img src="https://images.unsplash.com/photo-1506089676908-3592f7389d4d" alt="Gătit acasă">
-      <h2>De ce gătesc acasă</h2>
-      <p>Îmi place să știu ce pun în farfurie. Gătitul acasă e un mod de relaxare, dar și o modalitate sigură de a mânca sănătos și echilibrat.</p>
+      <h2>De ce gătim acasă</h2>
+      <p>Gătitul acasă ne permite să avem control total asupra ingredientelor. E sănătos, plăcut și un mod bun de a experimenta rețete noi.</p>
     </div>
 
     <div class="post">
       <img src="https://images.unsplash.com/photo-1510626176961-4b57d4fbad03" alt="Salată colorată">
       <h2>Salatele — mereu o alegere bună</h2>
-      <p>Combinațiile sunt infinite: legume proaspete, surse de proteine, semințe și un dressing natural. Salatele nu sunt plictisitoare, dacă știi să le faci gustoase!</p>
+      <p>Salatele pot fi extrem de gustoase dacă știi să combini ingredientele potrivite: proteine, legume proaspete, semințe și dressing natural.</p>
     </div>
+
   </div>
 
   <footer>
-    &copy; 2025 Irina Arvinte. Toate drepturile rezervate.
+    &copy; 2025 Arvinte Irina și Tancoc Andreea. Toate drepturile rezervate. Proiect realizat pentru atestatul la informatică.
   </footer>
 </body>
 </html>
