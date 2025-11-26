@@ -14,38 +14,76 @@
       background-color: #fdfcfb;
       color: #333;
       margin: 0;
-      padding: 20px;
     }
-    h1 {
+    header {
+      background-image: url('https://images.unsplash.com/photo-1554284126-aa88f22d8b74');
+      background-size: cover;
+      background-position: center;
+      padding: 60px 20px;
+      text-align: center;
+      color: white;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.5em;
+      margin-bottom: 0.2em;
+    }
+    header p {
+      font-size: 1.2em;
+    }
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
       font-family: 'Playfair Display', serif;
       color: #bb6f4f;
     }
     p {
-      max-width: 800px;
       line-height: 1.6;
+      margin-bottom: 20px;
     }
-    .video-container {
-      margin-top: 20px;
-      max-width: 800px;
-    }
-    iframe {
-      width: 100%;
-      height: 450px;
-      border: none;
+    .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* 16:9 */
+      height: 0;
+      overflow: hidden;
       border-radius: 12px;
+      margin-bottom: 40px;
+    }
+    .video-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
     }
   </style>
 </head>
 <body>
-  <h1>Sport și alimentație sănătoasă</h1>
-  <p>Pe această pagină vă prezentăm un videoclip care combină exercițiile la sală cu sfaturi pentru o alimentație echilibrată.
-     Este important să avem un stil de viață sănătos și să înțelegem cum să ne organizăm mesele și antrenamentele zilnice.</p>
+  <header>
+    <h1>Blogul Arvinte Irina și Tancoc Andreea</h1>
+    <p>Sport și alimentație sănătoasă</p>
+  </header>
 
-  <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/1f8yoFFdkcY" title="Workout & Healthy Eating Video" allowfullscreen></iframe>
+  <div class="container">
+    <h2>Exerciții și alimentație echilibrată</h2>
+    <p>Pentru un stil de viață sănătos, este esențial să combinăm exercițiile fizice cu o alimentație echilibrată. 
+       Următorul videoclip oferă exemple de antrenamente la sală și sfaturi pentru mese sănătoase.</p>
+    <div class="video-wrapper">
+      <iframe src="https://www.youtube.com/embed/1f8yoFFdkcY" title="Workout & Healthy Eating Video" allowfullscreen></iframe>
+    </div>
   </div>
 
-  <footer style="text-align:center; padding:20px; color:#aaa;">
+  <footer>
     &copy; 2025 Arvinte Irina și Tancoc Andreea. Toate drepturile rezervate. Realizat pentru atestatul la informatică.
   </footer>
 </body>
